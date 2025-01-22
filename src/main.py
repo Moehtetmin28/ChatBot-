@@ -31,7 +31,7 @@ for message in st.session_state.chat_history:
 
 
 # input field for user's message
-user_prompt = st.chat_input("Ask GPT-4o...")
+user_prompt = st.chat_input("Ask GPT-3.5-turbo...")
 
 if user_prompt:
     # add user's message to chat and display it
